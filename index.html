@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mon projet fil rouge</title>
+    <title>Destination Japon</title>
     <meta name="description" content="Un petit paragraphe" />
     <!-- Metadonnées réseaux sociaux -->
     <meta name="og:title" content="Mon projet fil route" />
@@ -12,8 +11,88 @@
     <link rel="stylesheet" href="css/main.min.css" />
     <!-- inclusion de script -->
     <script src="js/script.js" defer></script>
-</head>
+  </head>
 
-<body></body>
+  <body>
+    <section id="searching-section">
+      <div class="search-bar">
+        <!-- Menu déroulant pour les villes -->
+        <select name="Villes">
+          <option value="Tokyo">Tokyo</option>
+          <option value="Kyoto">Kyoto</option>
+          <option value="Osaka">Osaka</option>
+          <option value="Nara">Nara</option>
+          <option value="Sapporo">Sapporo</option>
+        </select>
 
+        <!-- Menu déroulant pour les parcours-->
+        <select name="Parcours">
+          <option value="gourmet">Gourmet</option>
+          <option value="sportif">Sportif</option>
+          <option value="culturel">Culturel</option>
+          <option value="zen">Zen</option>
+        </select>
+
+        <!-- Menu déroulant pour les activités -->
+        <select name="activites">
+          <option value="culture">Culture</option>
+          <option value="shopping">Shopping</option>
+          <option value="nature">Nature</option>
+          <option value="sport">Sport</option>
+        </select>
+
+        <button type="submit">Rechercher</button>
+      </div>
+    </section>
+    
+    <section id="carte-ville">
+      <h3>Vous êtes plutôt...</h3>
+      <img src="" alt="carte" />
+      <div class="boutons-villes">
+        <button class="bouton-ville">Gourmet</button>
+        <button class="bouton-ville">Sportif</button>
+        <button class="bouton-ville">Zen</button>
+        <button class="bouton-ville">Culture</button>
+      </div>
+      <button>Rechercher</button>
+    </section>
+
+    <section id="ville-activites">
+      <h2>Tokyo</h2>
+
+      <div class="activite">
+        <h3>Ramen</h3>
+        <img src="" alt="ramen" />
+        <p>
+          Le ramen japonais est un plat de nouilles en bouillon, souvent de
+          viande ou poisson, enrichi de miso ou soja. Inclut des garnitures
+          comme porc, œufs, algues. Chaque région japonaise offre sa version,
+          reflétant une diversité culturelle et gastronomique, faisant du ramen
+          un mets réconfortant et populaire.
+        </p>
+      </div>
+
+      <div class="activite">
+        <h3>Okonomiyaki</h3>
+        <img src="" alt="okonomiyaki" />
+        <p>
+          L’okonomiyaki est une galette japonaise faite de chou, œufs, farine,
+          viande ou fruits de mer. Cuite sur plaque, servie avec sauce
+          spécifique, mayonnaise, bonite séchée. Populaire à Osaka et Hiroshima,
+          chaque région a sa recette, symbolisant la créativité culinaire
+          japonaise.
+        </p>
+      </div>
+
+      <div class="activite">
+        <h3>Dango</h3>
+        <img src="" alt="dango" />
+        <p>
+          Les dango sont des boulettes japonaises sucrées à base de farine de
+          riz, souvent servies en brochette. Parfumées avec différentes saveurs,
+          elles sont un en-cas traditionnel lors des festivals et des saisons.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
