@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mon projet fil rouge</title>
+    <title>Destination Japon</title>
     <meta name="description" content="Un petit paragraphe" />
     <!-- Metadonnées réseaux sociaux -->
     <meta name="og:title" content="Mon projet fil route" />
@@ -12,8 +11,36 @@
     <link rel="stylesheet" href="css/main.min.css" />
     <!-- inclusion de script -->
     <script src="js/script.js" defer></script>
-</head>
+  </head>
 
-<body></body>
-
+  <body>
+    <div class="search-bar">
+      <!-- Menu déroulant pour les villes -->
+      <select name="Villes">
+        <option value="Tokyo">Tokyo</option>
+        <option value="Kyoto">Kyoto</option>
+        <option value="Osaka">Osaka</option>
+        <option value="Nara">Nara</option>
+        <option value="Sapporo">Sapporo</option>
+      </select>
+    
+      <!-- Menu déroulant pour les catégories de restaurants -->
+      <select name="Parcours">
+        <option value="gourmet">Gourmet</option>
+        <option value="sportif">Sportif</option>
+        <option value="culturel">Culturel</option>
+        <option value="zen">Zen</option>
+      </select>
+    
+      <!-- Menu déroulant pour les activités -->
+      <select name="activites">
+        <option value="culture">Culture</option>
+        <option value="shopping">Shopping</option>
+        <option value="nature">Nature</option>
+        <option value="sport">Sport</option>
+      </select>
+    
+      <button type="submit">Rechercher</button>
+    </div>
+  </body>
 </html>
