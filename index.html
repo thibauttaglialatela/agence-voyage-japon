@@ -15,9 +15,30 @@
 
   <body>
     <div class="search-bar">
-      <input type="text" placeholder="Tokyo" />
-      <input type="text" placeholder="Gourmet" />
-      <input type="text" placeholder="Activités..." />
+      <!-- Menu déroulant pour les villes -->
+      <select name="Villes">
+        <option value="Tokyo">Tokyo</option>
+        <option value="Kyoto">Kyoto</option>
+        <option value="Osaka">Osaka</option>
+        <option value="Nara">Nara</option>
+      </select>
+    
+      <!-- Menu déroulant pour les catégories de restaurants -->
+      <select name="Parcours">
+        <option value="gourmet">Gourmet</option>
+        <option value="sportif">Sportif</option>
+        <option value="culturel">Culturel</option>
+        <option value="zen">Zen</option>
+      </select>
+    
+      <!-- Menu déroulant pour les activités -->
+      <select name="activites">
+        <option value="culture">Culture</option>
+        <option value="shopping">Shopping</option>
+        <option value="nature">Nature</option>
+        <option value="sport">Sport</option>
+      </select>
+    
       <button type="submit">Rechercher</button>
     </div>
   </body>
