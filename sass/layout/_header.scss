@@ -22,6 +22,11 @@ header {
             text-decoration: underline;
           }
         }
+        @media screen and (min-width: 426px) {
+            a{
+                font-size: 1.5rem;
+            }
+        }
         &:last-child {
           margin-right: 0.5rem;
         }
