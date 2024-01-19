@@ -1,5 +1,3 @@
-@import "../utils/variables";
-
 
 /* section carte + villes */
 
@@ -40,7 +38,7 @@ h3 {
   
 .bouton-profil {
     padding: 1rem;
-    background-color: white;
+    background-color: $color-light;
     border: $primary-color 1px solid;
     border-radius: 5px;
 
