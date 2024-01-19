@@ -1,9 +1,25 @@
 header {
-    nav {
-    }
+  nav {
+    background-color: $secondary-color;
+    border-bottom: 1px solid $primary-color;
     ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      li {
+        a {
+          color: $color-dark;
+          font-family: $main-font;
+          text-decoration: none;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+      }
+      li:last-child {
+        margin-right: 0.5rem;
+      } 
     }
+  }
 }
