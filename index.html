@@ -30,7 +30,7 @@
         </ul>
       </nav>
     </header>
-    <section id="searching-section">
+    <div class="section-search">
       <div class="search-bar">
         <!-- Menu déroulant pour les villes -->
         <select name="Villes">
@@ -51,78 +51,91 @@
 
         <!-- Menu déroulant pour les activités -->
         <select name="activites">
-          <option value="culture">Culture</option>
+          <option value="culture">Musées</option>
           <option value="shopping">Shopping</option>
           <option value="nature">Nature</option>
-          <option value="sport">Sport</option>
+          <option value="sport">Onsen</option>
         </select>
 
         <button type="submit">Rechercher</button>
       </div>
-    </section>
-
-    <section id="carte-ville">
-      <h3>Vous êtes plutôt...</h3>
-      <img src="" alt="carte" />
-      <div class="boutons-villes">
-        <button class="bouton-ville">Gourmet</button>
-        <button class="bouton-ville">Sportif</button>
-        <button class="bouton-ville">Zen</button>
-        <button class="bouton-ville">Culture</button>
-      </div>
-      <button>Rechercher</button>
-    </section>
-
-    <section id="ville-activites">
-      <h2>Tokyo</h2>
-
-      <div class="activite">
-        <h3>Ramen</h3>
-        <img src="" alt="ramen" />
-        <p>
-          Le ramen japonais est un plat de nouilles en bouillon, souvent de
-          viande ou poisson, enrichi de miso ou soja. Inclut des garnitures
-          comme porc, œufs, algues. Chaque région japonaise offre sa version,
-          reflétant une diversité culturelle et gastronomique, faisant du ramen
-          un mets réconfortant et populaire.
-        </p>
-      </div>
-
-      <div class="activite">
-        <h3>Okonomiyaki</h3>
-        <img src="" alt="okonomiyaki" />
-        <p>
-          L’okonomiyaki est une galette japonaise faite de chou, œufs, farine,
-          viande ou fruits de mer. Cuite sur plaque, servie avec sauce
-          spécifique, mayonnaise, bonite séchée. Populaire à Osaka et Hiroshima,
-          chaque région a sa recette, symbolisant la créativité culinaire
-          japonaise.
-        </p>
-      </div>
-
-      <div class="activite">
-        <h3>Dango</h3>
-        <img src="" alt="dango" />
-        <p>
-          Les dango sont des boulettes japonaises sucrées à base de farine de
-          riz, souvent servies en brochette. Parfumées avec différentes saveurs,
-          elles sont un en-cas traditionnel lors des festivals et des saisons.
-        </p>
-      </div>
-    </section>
-  </body>
-  <body>
-    <h1>Présentation de l'agence</h1>
-    <div class="agence">
-      <h2>Qui sommes nous ?</h2>
-      <img src="img/groupe.webp" />
-      <p>
-        Depuis plus de 10 ans, nous travaillons pour vous offrir le meilleur des
-        séjours au Japon.
-      </p>
-      <h2>Nos partenaires</h2>
-      <img src="img/booking.jpeg" />
     </div>
+
+
+
+    <section id="carte-profils">
+      <h2>Vous êtes plutôt...</h2>
+      <img src="#" alt="carte" style="display: none;"/>
+      <div class="boutons-profils">
+        <button class="bouton-profil">Gourmet</button>
+        <button class="bouton-profil">Sportif</button>
+        <button class="bouton-profil">Zen</button>
+        <button class="bouton-profil">Culture</button>
+      </div>
+      <button style="display: none;">Rechercher</button>
+    </section>
+
+    <section id="profil-activites">
+      <h2>Gourmet</h2>
+
+      <div class="activite">
+        <img src="img/ramen.jpg" alt="ramen" />
+        <div class="text-container"> 
+          <h3>Ramen</h3>
+          <p>
+            Le ramen japonais est un plat de nouilles en bouillon, souvent de
+            viande ou poisson, enrichi de miso ou soja. Inclut des garnitures
+            comme porc, œufs, algues. Chaque région japonaise offre sa version,
+            reflétant une diversité culturelle et gastronomique, faisant du ramen
+            un mets réconfortant et populaire.
+          </p>
+        </div>
+      </div>
+
+      <div class="activite right">
+        <img src="img/okonomiyaki.jpg" alt="okonomiyaki" />
+        <div class="text-container">
+          <h3>Okonomiyaki</h3>
+          <p>
+            L’okonomiyaki est une galette japonaise faite de chou, œufs, farine,
+            viande ou fruits de mer. Cuite sur plaque, servie avec sauce
+            spécifique, mayonnaise, bonite séchée. Populaire à Osaka et Hiroshima,
+            chaque région a sa recette, symbolisant la créativité culinaire
+            japonaise.
+          </p>
+        </div>
+      </div>
+
+      <div class="activite">
+        <img src="img/dango.jpg" alt="dango" />
+        <div class="text-container">
+          <h3>Dango</h3>
+          <p>
+            Les dango sont des boulettes japonaises sucrées à base de farine de
+            riz, souvent servies en brochette. Parfumées avec différentes saveurs,
+            elles sont un en-cas traditionnel lors des festivals et des saisons.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section>
+      <h2>Présentation de l'agence</h2>
+      <div class="agence">
+        <h2>Qui sommes nous ?</h2>
+        <img src="img/groupe.webp" />
+        <p>
+          Depuis plus de 10 ans, nous travaillons pour vous offrir le meilleur des
+          séjours au Japon.
+        </p>
+        <h2>Nos partenaires</h2>
+        <img src="img/booking.jpeg" />
+      </div>
+    </section>
+
   </body>
 </html>
 
