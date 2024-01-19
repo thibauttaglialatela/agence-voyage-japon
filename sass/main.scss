@@ -1,8 +1,8 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./base/reset-css";
 @import "./base/base";
 @import "./base/typography";
 @import "./base/utilities";
-@import "./layout/section_carte_profils";
-@import "./layout/section_profil_activites";
+@import "./layout/profils";
 @import "./components/search-bar";
