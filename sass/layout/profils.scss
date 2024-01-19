@@ -7,10 +7,20 @@ h2, h3 {
     text-align: center;
 }
   
-#profil-activites h2, #carte-profils h2 {
-    color: $color-dark;
-    margin-bottom: 1em;
+#profil-activites, #carte-profils {
+    margin: 0 10%;
+
+    @include respondTo(xs) {
+
+        margin: 0;
+    }
+
+    h2 {
+        color: $color-dark;
+        margin-bottom: 1em;
+    }
 }
+
 
 h3 {
     color: $primary-color;
@@ -20,6 +30,12 @@ h3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+
+    @include respondTo(xxs) {
+        display: flex;
+        flex-direction: column;
+        color: red;
+    }    
 }
   
 .bouton-profil {
@@ -59,17 +75,22 @@ h3 {
         width: 100%;
         height: auto;
     }
+
+
+    @include respondTo(xs) {
+        display: block;
+
+        margin-bottom: 10%;
+    }
 }
 
 
 
 .text-container {
-    // background-color: pink;
 
     p {
         padding: 2% 10%;
         height: 75%;
-        // background-color: red;
     }
 }
 

@@ -9,4 +9,10 @@
             @content;
         }
     }
+
+    @if $breakpoint == xxs {
+        @media (max-width: 400px) {
+            @content;
+        }
+    }
 }
